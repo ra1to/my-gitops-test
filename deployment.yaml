@@ -24,7 +24,7 @@ spec:
               name: db-secret            # 金庫の名前
               key: DATABASE_URL          # 鍵の名前
 ---
-apiVersion: v2
+apiVersion: v1
 kind: Service
 metadata:
   name: my-backend-service
