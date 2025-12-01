@@ -33,6 +33,6 @@ spec:
     app: my-backend
   ports:
     - protocol: TCP
-      port: 8088            # 外からアクセスするポート
-      targetPort: 8088      # コンテナのポート
+      port: 8080            # 外からアクセスするポート
+      targetPort: 8080      # コンテナのポート
   type: LoadBalancer
